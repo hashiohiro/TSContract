@@ -40,7 +40,7 @@ export default class Contract
      */
     private static CheckCondition(condition: boolean, error?: Error): boolean
     {
-        if (condition) { return; }
+        if (condition) { return true; }
         return this.ErrorCase(error);
     }
 

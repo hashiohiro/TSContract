@@ -9,8 +9,5 @@
     "outDir": "dist",
     "module": "commonjs",
     "jsx": "react"
-  },
-  "files": [
-    "./src/ts/InjectorClient.ts"
-  ]
+  }
 }
